@@ -5,3 +5,7 @@ h1 {
     color:forestgreen;
     text-align: center;
 }
+
+ul{
+    list-style:none
+}
