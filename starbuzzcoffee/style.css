@@ -6,7 +6,7 @@ html{
 
 body{
     font-family: 'Roboto', sans-serif; 
-    background-color: rgb(252, 255, 88);   
+    background-color: rgb(218, 219, 213);   
 }
 h1 {
     color:forestgreen;
@@ -22,6 +22,7 @@ ul{
 a{
     color:crimson;
     text-decoration: none;
+    display: block;
 }
 a:visited{
     text-decoration-line:none;
