@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
+*{
+    box-sizing: border-box;
+}
+
 html{
     scroll-behavior:smooth;
 }
 
 body{
     font-family: 'Roboto', sans-serif; 
-    background-color: rgb(218, 219, 213);   
+    background-color: rgb(224, 226, 214);   
 }
 h1 {
     color:forestgreen;
@@ -32,4 +36,34 @@ a:visited{
 a:hover{
     background-color: lightblue;
     color:white;
+}
+
+#contact{
+    color:firebrick;
+    font-weight:bold;
+}
+
+.price{
+    color:orangered;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#menu{
+    background-color: palegoldenrod;
+    border-style:solid;
+    border-color: gray;
+    border-top-color: darkgrey;
+    border-width: 0.1em;
+    padding:0.5em 0.2em;
+    margin:auto;
+    width:30%;
+    height:3em;
+    text-align: center;
+    line-height: 2em;
+    
+}
+
+.special{
+    color:blue;
 }

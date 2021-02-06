@@ -1,0 +1,39 @@
+body{
+    height: 200vh;
+}
+
+div{
+    min-height:7em;
+    width: 7em;
+    border-radius: 1em;
+    background-color: gray;
+}
+
+#relative{
+    background-color: rgb(194, 105, 17); 
+    position: relative; 
+    top:1em;
+    left:1em;  
+    
+}
+
+#absolute{
+    background-color: powderblue;
+    position:absolute;
+    top:3em;
+    left:10em;
+}
+
+#fixed{
+    background-color: crimson;
+    position:fixed;
+    top:1em;
+    left:7em;
+    z-index: 1;
+}
+
+#sticky{
+    background-color: red;
+    position: sticky;
+    top:0
+}
