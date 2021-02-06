@@ -1,8 +1,8 @@
-body{
-    height: 200vh;
+body {
+    height: 300vh;
 }
 
-div{
+div {
     min-height:7em;
     width: 7em;
     border-radius: 1em;
@@ -17,14 +17,14 @@ div{
     
 }
 
-#absolute{
+#absolute {
     background-color: powderblue;
     position:absolute;
     top:3em;
     left:10em;
 }
 
-#fixed{
+#fixed {
     background-color: crimson;
     position:fixed;
     top:1em;
@@ -32,8 +32,8 @@ div{
     z-index: 1;
 }
 
-#sticky{
+#sticky {
     background-color: red;
     position: sticky;
-    top:0
+    top:20px
 }
