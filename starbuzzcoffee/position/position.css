@@ -7,12 +7,14 @@ div{
     width: 7em;
     border-radius: 1em;
     background-color: gray;
+    text-align: center;
+    line-height: 7em;
 }
 
 #relative{
     background-color: rgb(194, 105, 17); 
     position: relative; 
-    top:1em;
+    top:10em;
     left:1em;  
     
 }
@@ -21,7 +23,7 @@ div{
     background-color: powderblue;
     position:absolute;
     top:3em;
-    left:10em;
+    left:30em;
 }
 
 #fixed{
@@ -35,5 +37,6 @@ div{
 #sticky{
     background-color: red;
     position: sticky;
-    top:0
+    top:0;
 }
+

@@ -1,0 +1,12 @@
+input[type="text"] {
+    border-style:solid;
+    border-width: 1px;
+    border-color: green;
+    padding: 0.2em 0.4em;
+    background-color: red;
+    color: white;    
+}
+
+::placeholder {
+    color:white;
+}
