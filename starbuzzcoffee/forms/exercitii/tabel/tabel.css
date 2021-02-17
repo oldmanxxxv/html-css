@@ -17,7 +17,7 @@
 
 th {
     color:white;
-    font-family: 'Montserrat';
+    font-family: 'sans-serif';
 }
 
 #first th, #first td, #third th, #third td {
@@ -26,7 +26,16 @@ th {
     text-align: left;
     padding: 5px 0 5px 5px;
     width:25%;
-    font-family: 'Montserrat';
+    font-family: 'sans-serif';
+}
+
+#second tr th:first-child, #second tr td:first-child {
+    height: 20px;
+    line-height: 18px;
+    text-align: left;
+    padding: 5px 0 5px 5px;
+    width:30%;
+    font-family: 'asns-serif';
 }
 
 tr:nth-child(2n+1) {
@@ -41,8 +50,8 @@ tr:nth-child(2n) {
     background-color: rgb(199, 136, 20);
 }
 
-#second th, #second td {
-    width:20%;
+#second th:nth-child(n), #second td:nth-child(n) {
+    width:12.5%;
     height: 20px;
     line-height: 18px;
     text-align: left;
@@ -58,3 +67,11 @@ tr:nth-child(2n) {
 }
 
 #third {margin-bottom: 0;}
+
+#third tr td:first-child, #third tr td:last-child {
+    width: 20%;
+}
+
+#third tr td:nth-child(2), #third tr td:nth-child(3) {
+    width:30%;
+}
