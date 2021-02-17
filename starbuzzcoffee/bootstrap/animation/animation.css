@@ -1,0 +1,28 @@
+#animation {
+    width:10em;
+    height: 10em;
+    background-color: darkorange;
+    position:relative;
+    top:10em;
+    left:10em;
+    border-radius: 10%;
+    animation-name: bob;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    
+}
+@keyframes bob {
+
+    50% {
+        /*transform:scale(0.5) rotate(360deg) translateX(100px);*/
+        transform: translateY(100px);
+        background-color: blue;
+    }
+    to {
+        background-color: green;
+    }
+    
+}

@@ -12,10 +12,12 @@
     border: none;
     width: 100%;
     margin-bottom: 30px;
+    
 }
 
 th {
     color:white;
+    font-family: 'Montserrat';
 }
 
 #first th, #first td, #third th, #third td {
@@ -24,6 +26,7 @@ th {
     text-align: left;
     padding: 5px 0 5px 5px;
     width:25%;
+    font-family: 'Montserrat';
 }
 
 tr:nth-child(2n+1) {
