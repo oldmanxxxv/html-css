@@ -1,0 +1,57 @@
+#container {
+    width:60%;
+    height:auto;
+    padding:20px;
+    background-color: black;
+    margin: auto;
+}
+
+#first, #second, #third{
+    color: rgb(95, 93, 93);
+    border-collapse: collapse;
+    border: none;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+th {
+    color:white;
+}
+
+#first th, #first td, #third th, #third td {
+    height: 20px;
+    line-height: 18px;
+    text-align: left;
+    padding: 5px 0 5px 5px;
+    width:25%;
+}
+
+tr:nth-child(2n+1) {
+    background-color: rgb(202, 198, 198);
+}
+
+tr:nth-child(2n) {
+    background-color: rgb(231, 231, 231);
+}
+
+#first tr:first-child{
+    background-color: rgb(199, 136, 20);
+}
+
+#second th, #second td {
+    width:20%;
+    height: 20px;
+    line-height: 18px;
+    text-align: left;
+    padding: 5px 0 5px 5px;
+}
+
+#second tr:first-child{
+    background-color: rgb(9, 172, 63);
+}
+
+#third tr:first-child{
+    background-color: rgb(27, 57, 228);
+}
+
+#third {margin-bottom: 0;}

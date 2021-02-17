@@ -1,0 +1,60 @@
+#container {
+    width:50%;
+    margin:auto;
+}
+
+h4 {
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: rgb(92, 87, 87);
+}
+
+#container form label, #container form input {
+    display: block;
+    margin:15px 0;
+}
+
+input {
+    width:400px;
+    height:30px;
+    border: none;
+    border-bottom: 2px solid rgb(223, 213, 213);
+    line-height: 1.2em;
+}
+
+input:focus, textarea:focus {
+    outline: none !important;
+}
+
+label {
+    font-size: 1em;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: darkgray;
+}
+
+::placeholder {
+    font-family: 'Poppins';    
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(223, 213, 213);
+}
+
+textarea {
+    border: none;
+    border-bottom: 2px solid rgb(223, 213, 213);
+    resize: none;
+}
+
+input[type='submit'] {
+    height:40px;
+    width: 200px;
+    position: relative;
+    left:100px;
+    border-radius: 2em;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: white;
+    background: linear-gradient(90deg, rgba(232,7,178,1) 0%, rgba(240,16,28,1) 100%);
+}
