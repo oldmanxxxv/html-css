@@ -1,0 +1,18 @@
+#carouselExampleIndicators > .carousel-inner > .carousel-item > img {
+    margin: auto;
+    height:700px;
+}
+
+#carouselExampleIndicators {
+    margin-top:1em;
+}
+
+.carousel-control-prev-icon {
+    position:relative;
+    left:8em;
+}
+
+.carousel-control-next-icon {
+    position:relative;
+    right:8em;
+}
